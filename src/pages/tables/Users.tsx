@@ -99,7 +99,7 @@ function Users() {
             justifyContent: "center",
             alignItems: "center",
             gap: "10px",
-          }}>        <CustomButton onClick={()=>{setActiveMTV(true); getMTV()}}>Среднее количество задач</CustomButton>
+          }}>        <CustomButton onClick={()=>{setActiveMTV(true); getMTV()}}>Среднее количество решенных задач</CustomButton>
           <CustomButton onClick={()=>{setActiveMPV(true); getMPV()}}>Средняя сумма призового фонда</CustomButton></div>
 
         <Table tournaments={tournaments} getTournaments={ getTournaments} getParts={getParts} setPartsCheck={setPartsCheck}></Table>
